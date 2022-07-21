@@ -1,0 +1,8 @@
+.item1, .item2, .item3{
+border: 2px solid red; 
+background-color: aqua;
+padding: 10px;
+}
+.flexbox-contenar{
+    display: flex;
+}
