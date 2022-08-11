@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 20px 50px;
+}
+
+.top-nav .logo h1 {
+    color: brown;
+}
+
+.top-nav .right-section{
+    display: flex;
+}
+
+.top-nav .menu {
+    display: flex;
+}
+
+.top-nav .menu a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.btn{
+    background-color: rgb(108, 106, 236);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold ;
+}
+
+.btn-menu{
+    background-color: red;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+
+.intro{
+    display: flex;
+    padding: 35px;
+    background-color: rgb(188, 141, 84) ;
+
+}
+/* .intro .left, .intro .right{
+    width: 50vw;
+} */
+.intro .left img{
+    height: 750px;
+    width: 620px;
+}
+
+.intro .right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.intro .right h1, .intro .right p, .intro .right div{
+    margin: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.intro .right p{
+    font-size:large;
+}
+.intro .right h1{
+    color: red;
+    font-size:50px;
+}
+
+.red-background{
+    background-color: red;
+}
+
+/* second-section Design */
+
+.second-section{
+    display: flex;
+
+}
+.second-section p{
+    font-size: x-large;
+    margin: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.second-section .left{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+margin-top: -250px;
+
+}
+.second-section .left h1{
+    font-size: 55px;
+}
+.second-section .left .btn{
+    margin: 20px;
+}
+
+.second-section .right{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+margin-top: 75px;
+}
+.second-section .right h1{
+    font-size: xx-large;
+}
+
+/* section 4 CSS */
+
+img{
+    height: 650px;
+    width: 700px;
+}
+.section4 h1{
+    color: red;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container >div{
+    margin: 40px;
+font-size: 25px;
+}
+.flex >div{
+flex-direction: column;
+}
+
+/* section 5 CSS */
+.section5{
+    background-color: rgba(232, 230, 230, 0.903);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container p,b{
+    font-size: x-large;
+    
+}
+.box1{
+    background-color: white;
+    width: 520px;
+    text-align: center ;
+    margin: 25px;
+}
+h2{
+    color: rgb(75, 75, 193);
+    font-size: 4.0rem;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: white;
+    font-size: larger;
+
+}
+/* section 6 CSS */
+.contener{
+    display: flex; 
+    justify-content: space-around;
+}
+.card1{
+    background-color: aliceblue;
+    width: 520px;
+    text-align: center;
+    margin:25px;
+}
+.section6 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: white;
+    font-size: larger;
+}
+
+/* section 7 CSS */
+.section7 {
+    text-align: center;
+}
+.section7, p{
+    font-size: larger;
+}
+.section7 h1 {
+    color: rgb(234, 61, 61);
+    font-size: 75px;
+}
+
+.section7 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+/* section 10 CSS */
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    border-top: 2px solid white;
+}
+.section11{
+text-align: center;
+/* border-top: 2px solid white; */
+}
