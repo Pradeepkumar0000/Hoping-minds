@@ -13,11 +13,13 @@
         background-color: aliceblue;
         padding: 30px;
     }
+    .section9 h1{
+        color: red;
+    }
 
     .section9 .left {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         text-align: left;
         margin: 25px;
         padding: 20px;
@@ -29,24 +31,27 @@
         margin: 35px;
     }
 
-    .section9 .left>div {
+    .section9 .left input, textarea, button {
+        width: 50%;
+        border-radius: 5px;
         border: none;
-        border-radius: 2px;
-        margin: 15px;
-        padding: 10px;
+        padding: 15px;
+    }
+    .section9 .left button{
+        background-color: red;
+        color: white;
     }
 </style>
 
 <body>
-    <div class="section9">
+    <section class="section9">
         <div class="left">
             <div>
                 <form>
                     <h1>Contect Me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam distinctio repellat ab quis
                         corrupti excepturi pariatur voluptate accusamus neque nemo necessitatibus, tempora corporis
-                        doloremque. ipsum dolor sitesse inventore
-                        iste nobis eum sit, nesciunt ipsa deserunt explicabo culpa qui natus?</p>
+                        doloremque. ipsum dolor ulpa qui natus?</p>
                     <label></label><br>
                     <input type="text" id="user" name="Username" required placeholder="Name"><br>
 
@@ -55,14 +60,15 @@
 
                     <label></label><br>
                     <textarea name="text" id="area" cols=" " rows=" " required placeholder="Message"></textarea><br>
+                    <br>
                     <button>Sand Message</button>
                 </form>
             </div>
         </div>
         <div class="right">
-            <img src="/Assamint/imeges/womenwork2.jpg" alt="not a img">
+            <img src="/imeges/womenwork2.jpg" alt="not a img">
         </div>
-    </div>
+    </section>
 
 </body>
 

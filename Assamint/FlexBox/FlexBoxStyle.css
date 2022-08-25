@@ -124,6 +124,32 @@ margin-top: 75px;
     font-size: xx-large;
 }
 
+/* section 3 CSS */
+.section3{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.section3-s img {
+    width: 250px;
+    height: 250px;
+    margin: 35px;
+}
+
+.section3-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section3 h1 {
+    color: red;
+}
+.section3 h2 {
+    color: gray;
+    font-size: x-large;
+}
+
 /* section 4 CSS */
 
 img{
@@ -210,8 +236,8 @@ button{
     font-size: larger;
 }
 .section7 h1 {
-    color: rgb(234, 61, 61);
-    font-size: 75px;
+    color: #ea3d3d;
+    font-size: 50px;
 }
 
 .section7 img {
