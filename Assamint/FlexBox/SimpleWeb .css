@@ -1,0 +1,63 @@
+.top{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(9, 176, 176);
+    padding: 100px;
+    color: white;
+}
+.links{
+    display: flex;
+    background: black;
+}
+
+.links a{
+    color: white;
+    /* background: black; */
+    text-decoration:none;
+    margin: 20px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-section{
+    width: 40%;
+    background-color: aliceblue;
+}
+
+.Right-section{
+    margin-left: 10px;
+    width: 60%;
+    background-color: antiquewhite;
+}
+
+
+.first-img{
+    height: 150px;
+    width: 100%;
+background-color: gray;
+}
+
+.right-img{
+    height: 150px;
+    width: 100%;
+background-color: gray;
+}
+
+.more-img{
+    height: 40px;
+    width: 100%;
+background-color: gray;
+}
+
+.foot{
+    text-align: center;
+    background-color: gray;
+} 
+
+@media screen and (max-width: 500px) {
+    .links,.main,.left-section,.Right-section{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
