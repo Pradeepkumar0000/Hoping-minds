@@ -57,7 +57,8 @@ background-color: gray;
 } 
 
 @media screen and (max-width: 500px) {
-    .links,.main,.left-section,.Right-section{
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    .links,.container,.left-section,.Right-section{
+display: flex;
+flex-direction: column;
     }
   }
