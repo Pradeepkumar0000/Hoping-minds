@@ -57,8 +57,18 @@ background-color: gray;
 } 
 
 @media screen and (max-width: 500px) {
-    .links,.container,.left-section,.Right-section{
+    .container,.left-section,.Right-section, .foot{
 display: flex;
 flex-direction: column;
+width: 100%;
+    }
+    .links{
+        display: flex;
+flex-direction: column;
+        text-align: center;
+    }
+    .links a:hover{
+        background-color: gray;
+        padding: 10px;
     }
   }
